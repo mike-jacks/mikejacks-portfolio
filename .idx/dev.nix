@@ -16,7 +16,24 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
-      # "vscodevim.vim"
+      "vscodevim.vim"
+      "bradlc.vscode-tailwindcss"
+      "codezombiech.gitignore"
+      "dbaeumer.vscode-eslint"
+      "esbenp.prettier-vscode"
+      "formulahendry.auto-rename-tag"
+      "github.vscode-github-actions"
+      "GitHub.vscode-pull-request-github"
+      "golang.go"
+      "KnisterPeter.vscode-github"
+      "mhutchie.git-graph"
+      "ms-azuretools.vscode-docker"
+      "ms-python.debugpy"
+      "ms-python.python"
+      "ritwickdey.LiveServer"
+      "rust-lang.rust-analyzer"
+      "rvest.vs-code-prettier-eslint"
+      "tombonnike.vscode-status-bar-format-toggle"
     ];
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
