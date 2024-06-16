@@ -1,7 +1,17 @@
 .colorize:hover .lightGlow {
     fill: #d7bf0b !important; 
+    transition-property: all;
+    transition: 0.2s ease-in-out;
 }
 
 .colorize:hover .darkGlow {
     fill: var(--accent-color) !important;
+    transition-property: all;
+    transition: 0.2s ease-in-out;
+}
+
+.colorize .lightGlow,
+.colorize .darkGlow {
+    transition-property: all;
+    transition: 0.2s ease-in-out;
 }

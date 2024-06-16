@@ -9,11 +9,11 @@
   --accent-color: #6b98df;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
-
 
 body.light-theme {
   --foreground-rgb: #1f1f1f;
@@ -31,14 +31,9 @@ body.dark-theme {
 
 body {
   color: var(--foreground-rgb);
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      var(--background-end-rgb)
-    )
+  background: linear-gradient(to bottom, transparent, var(--background-end-rgb))
     var(--background-start-rgb);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
