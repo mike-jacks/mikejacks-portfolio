@@ -1,0 +1,7 @@
+.colorize:hover .lightGlow {
+    fill: #d7bf0b !important; 
+}
+
+.colorize:hover .darkGlow {
+    fill: var(--accent-color) !important;
+}
